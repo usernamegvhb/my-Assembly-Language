@@ -73,25 +73,25 @@ def CheckWriteREG() :
 def CheckWriteTER() :
 
     if lineDecoder[1][1:2] == "A" :
-        print(A[int(lineDecoder[1][2:]) - 1])
+        print(f"A{lineDecoder[1][2:]} :", A[int(lineDecoder[1][2:]) - 1])
 
     if lineDecoder[1][1:2] == "B" :
-        print(B[int(lineDecoder[1][2:]) - 1])
+        print(f"B{lineDecoder[1][2:]} :", B[int(lineDecoder[1][2:]) - 1])
 
     if lineDecoder[1][1:2] == "C" :
-        print(C[int(lineDecoder[1][2:]) - 1])
+        print(f"C{lineDecoder[1][2:]} :", C[int(lineDecoder[1][2:]) - 1])
 
     if lineDecoder[1][1:2] == "D" :
-        print(D[int(lineDecoder[1][2:]) - 1])
+        print(f"D{lineDecoder[1][2:]} :", D[int(lineDecoder[1][2:]) - 1])
 
     if lineDecoder[1][1:2] == "E" :
-        print(E[int(lineDecoder[1][2:]) - 1])
+        print(f"E{lineDecoder[1][2:]} :", E[int(lineDecoder[1][2:]) - 1])
 
     if lineDecoder[1][1:2] == "F" :
-        print(F[int(lineDecoder[1][2:]) - 1])
+        print(f"F{lineDecoder[1][2:]} :", F[int(lineDecoder[1][2:]) - 1])
 
     if lineDecoder[1][1:2] == "G" :
-        print(G[int(lineDecoder[1][2:]) - 1])
+        print(f"G{lineDecoder[1][2:]} :", G[int(lineDecoder[1][2:]) - 1])
 
 def CheckWriteCOPY():
     global CopyValue
