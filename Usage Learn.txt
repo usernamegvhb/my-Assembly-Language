@@ -1,0 +1,15 @@
+()01 - __ ---> registers the inputed value to the corresponding register, it goes from A-G and its up to 10 spaces per Letter
+
+Radd - ___ - ___ - ___ ---> adds the 2 first arguments and regsiters the result in the third
+
+Rsub - ___ - ___ - ___ ---> subtracts the 2 first arguments and regsiters the result in the third
+
+Rmul - ___ - ___ - ___ ---> multiplies the 2 first arguments and regsiters the result in the third
+
+Rdiv - ___ - ___ - ___ ---> divides the 2 first arguments and regsiters the result in the third
+
+loop - [] ---> loops for the inputed amount of times, to do a forever loop, just put "Forever"
+
+loop - ^^^ ---> just tells the interpreter where the loop ends
+
+Twrite - ___ ---> writes into the terminal the value of the inputed register
