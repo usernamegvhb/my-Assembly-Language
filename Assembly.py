@@ -414,14 +414,8 @@ def DivREG() :
     if lineDecoder[3][1:2] == "G" :
         G[int(lineDecoder[3][2:]) - 1] = Val3
 
-userInput = input("Action : ")
-userInputDec = userInput.split()
-
-if userInputDec[0] == "Run" :
-    CanRun = True
-    print("\n")
-    with open(userInputDec[1], "r") as file:
-        lines = file.readlines()
+with open("Assembly.AS", "r") as file:
+    lines = file.readlines()
 
 while CanRun :
     time.sleep(0.1)
