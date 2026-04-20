@@ -450,15 +450,6 @@ while CanRun :
 
     if lineDecoder[0] == "Rdiv " :
         DivREG()
-        
-    if lineDecoder[0] == "f.make " :
-        file = open(lineDecoder[1].strip(), "w")
-
-    if lineDecoder[0] == "f.edit " :
-        file.write(lineDecoder[1].replace("[", "").replace("]", "").strip())
-
-    if lineDecoder[0] == "f.delete " :
-        os.remove(lineDecoder[1].strip())
 
     if lineDecoder[0] == "loop " :
         if lineDecoder[1] == " Forever" :
